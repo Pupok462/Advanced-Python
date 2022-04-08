@@ -1,0 +1,81 @@
+  .floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin-top: 88vh;
+      margin-left: 3vw;
+    position: absolute;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  .floating-button:hover {
+    background: #e5432e;
+    box-shadow: 0 15px 20px rgba(225, 49, 49, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      height: 100vh;
+      display: flex;
+  }
+
+  .container{
+      width: 100vw;
+      height: 100vh;
+  }
+
+  .container h2 {
+      margin-top: 20%;
+      margin-left: 36%;
+      width: 25%;
+      background-color: #000000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      border-radius: 10px;
+      color: #ffffff;
+      font-size: 32px;
+      margin-bottom: 24px;
+
+  }
+
+  .color {
+      color: #49a6e9;
+  }
+
+
+  .btn {
+      margin-left: 44%;
+      background-color: #000000;
+      padding: 8px;
+      border: 2px solid #000000;
+      border-radius: 5px;
+      font-size: 16px;
+      letter-spacing: 1.5px;
+      color: #ffffff
+  }
+
+
+.btn:hover {
+    background-color: #222;
+    color: #000000;
+    transition: all 0.275s ease-in;
+}

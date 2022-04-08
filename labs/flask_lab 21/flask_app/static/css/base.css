@@ -1,0 +1,39 @@
+body {
+	background-image: url('background/hip-square.png');
+}
+header{
+	width: 100%;
+}
+
+main {
+	width: 100%;
+}
+
+header img {
+	width: 28%;
+	height: 32%;
+	margin-left: 36%;
+}
+h1,h3 {
+	text-align: center;
+	font-family: 'Comforter', cursive;
+	font-family: 'Inspiration', cursive;
+	font-family: 'Oswald', sans-serif;
+}
+
+header ul {
+	list-style-type: none;
+    display: flex;
+    border: 1px solid red;
+    width: 50%;
+	margin-left: 25%;
+	padding-inline-start: 0px;
+}
+header li {
+    width: 100vw;
+	font-size: 24px;
+}
+
+li p {
+	text-align: center;
+}

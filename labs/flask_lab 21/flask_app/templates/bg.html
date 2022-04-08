@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bg.css') }}">
+        <title> Background </title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>
+                Background color:
+                <span class="color">#fff222</span>
+            </h2>
+            <button id="btn" class="btn" > Сменить цвет</button>
+        </div>
+        <a href="/Home_Page" class="floating-button">Back</a>
+        <script src="{{ url_for('static', filename='js/bg.js') }}"></script>
+    </body>
+</html>

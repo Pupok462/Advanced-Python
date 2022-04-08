@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+	<head>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/base.css') }}">
+		<title> Home Page </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Inspiration&family=Oswald:wght@200&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+		<style>
+			body
+			{
+				background-attachment: fixed;
+				background-image:url({{url_for('static',filename='img/hip-square.png')}})
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>My Profile Picture</h1> <br>
+			<ul>
+				<li><a href="/Background"><p>BG</p></a></li>
+				<li><a href="/CV"><p>CV</p></a></li>
+				<li><a href="/Cube"><p>Cube</p></a></li>
+			</ul>
+			<img src="{{ url_for('static', filename='img/pic.jpg') }}" alt="">
+		</header>
+		<main>
+			<h3>My name is Liza Rybkina, I am 19 years old :) </h3>
+		</main>
+	</body>
+</html>

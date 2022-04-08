@@ -1,0 +1,48 @@
+
+
+
+.mode {
+    width: 3%;
+    height: 3%;
+    border: 2px solid #e5432e;
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+   }
+
+
+  .floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin-top: 10%;
+    margin-left: 1%;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  .floating-button:hover {
+    background: #e5432e;
+    box-shadow: 0 15px 20px rgba(225, 49, 49, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+    img {
+    width: 28%;
+	height: 32%;
+	margin-left: 36%;
+  }
