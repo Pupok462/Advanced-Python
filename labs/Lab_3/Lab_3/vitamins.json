@@ -1,0 +1,65 @@
+[
+    {
+        "vitamin": "A",
+        "vitamers": [
+            "all-trans-Retinol",
+            " Retinals"
+        ],
+        "solubility": "Fat",
+        "daily_requirement": 0.9,
+        "deficiency_diseases": [
+            "Night blindness",
+            " keratomalacia"
+        ]
+    },
+    {
+        "vitamin": "B6",
+        "vitamers": [
+            "Pyridoxine",
+            " Pyridoxamine",
+            " Pyridoxal"
+        ],
+        "solubility": "Water",
+        "daily_requirement": 1.5,
+        "deficiency_diseases": [
+            "Anemia",
+            " Peripheral neuropathy"
+        ]
+    },
+    {
+        "vitamin": "C",
+        "vitamers": [
+            "Ascorbic acid"
+        ],
+        "solubility": "Water",
+        "daily_requirement": 90.0,
+        "deficiency_diseases": [
+            "Scurvy"
+        ]
+    },
+    {
+        "vitamin": "D",
+        "vitamers": [
+            "Cholecalciferol",
+            " Ergocalciferol"
+        ],
+        "solubility": "Fat",
+        "daily_requirement": 0.015,
+        "deficiency_diseases": [
+            "Rickets",
+            " Osteomalacia"
+        ]
+    },
+    {
+        "vitamin": "K",
+        "vitamers": [
+            "Phylloquinone",
+            " Menaquinones"
+        ],
+        "solubility": "Fat",
+        "daily_requirement": 0.12,
+        "deficiency_diseases": [
+            "Bleeding diathesis"
+        ]
+    }
+]
