@@ -1,0 +1,5 @@
+D
+Cholecalciferol, Ergocalciferol
+Fat
+0.015
+Rickets, Osteomalacia

@@ -1,0 +1,6 @@
+vitamin,vitamers,solubility,daily_requirement,deficiency_diseases
+A,"['all-trans-Retinol', ' Retinals']",Fat,0.9,"['Night blindness', ' keratomalacia']"
+B6,"['Pyridoxine', ' Pyridoxamine', ' Pyridoxal']",Water,1.5,"['Anemia', ' Peripheral neuropathy']"
+C,['Ascorbic acid'],Water,90.0,['Scurvy']
+D,"['Cholecalciferol', ' Ergocalciferol']",Fat,0.015,"['Rickets', ' Osteomalacia']"
+K,"['Phylloquinone', ' Menaquinones']",Fat,0.12,['Bleeding diathesis']
