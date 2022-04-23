@@ -1,0 +1,12 @@
+{
+    "name": "Rose",
+    "country": "Holland",
+    "petal-colour": "R",
+    "stem-length": 70,
+    "with-thorns": true,
+    "companion-plants": [
+        "Solomio",
+        "Snapdragon",
+        "Calla_Lily"
+    ]
+}
