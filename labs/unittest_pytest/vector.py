@@ -23,21 +23,9 @@ class Vector:
     EXC_INFO_MUL = "You can't mul these vectors, try to transfer them in one point"
     EXC_INFO_SUM = "You can't sum these vectors, try to transfer them in one point"
 
-    # def __init__(self, start, end):
-    #     self.start = {
-    #         'x': start.x,
-    #         'y': start.y,
-    #         'z': start.z
-    #     }
-    #     self.end = {
-    #         'x': end.x,
-    #         'y': end.y,
-    #         'z': end.z,
-    #     }
     def __init__(self, start, end):
         self.start = start
         self.end = end
-
 
     def length(self):
         return sqrt(pow(self.end.x - self.start.x, 2) + pow(self.end.y - self.start.y, 2)
@@ -83,20 +71,3 @@ class Vector:
             return Vector(self.start, end_point)
         else:
             raise MulException(self.EXC_INFO_MUL)
-
-# p1 = Point(0, 0, 0)
-# p2 = Point(1, 2, 3)
-# p3 = Point(0, 0, 0)
-# p4 = Point(4, 5, 6)
-# v1 = Vector(p1, p2)
-# print(vars(v1))
-# v1.parallel_transfer()
-# print(vars(v1))
-# v2 = Vector(p3, p4)
-# v3 = v2 + v1
-# print(vars(v3))
-# v4 = v1 * v2
-# print(vars(v4))
-# print(v1.possibility_to_sum(v2))
-# print(v1.possibility_to_mul(v2))
-# print(v1.length())
