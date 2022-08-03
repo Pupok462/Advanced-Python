@@ -1,0 +1,166 @@
+ @media screen and (max-width: 1920px) {
+
+     p,a,h3,b {
+         font-family: sans-serif;
+     }
+
+     header {
+         display: flex;
+         width: 100%;
+     }
+     .menu{
+         border: 2px solid green;
+         width: 90%;
+    }
+    .menu ul {
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+        text-align: center;
+
+    }
+
+     .icon {
+         width: 130px;
+         height: 100px;
+     }
+
+     .icon img {
+         width: 130px;
+         height: 100px;
+         float: right;
+     }
+
+     .name {
+         text-align: center;
+         text-decoration: underline;
+         border: 2px solid #95c242;
+         width: 90%;
+
+     }
+
+     .main {
+         width: 80%;
+     }
+
+     .content {
+         height: 80%;
+         width: 100%;
+         position: relative;
+     }
+
+     .one img , .three img{
+         width: 40%;
+         height: 80%;
+         float: left;
+         margin: 4px;
+     }
+     .two img {
+         float: right;
+         width: 40%;
+         height: 80%;
+     }
+
+     .content p {
+         font-size: 30px;
+     }
+     .one {
+         width: 50%;
+         height: 33%;
+     }
+
+     .two {
+         height: 33%;
+         width: 50%;
+         top: 50%;
+     }
+
+     .three {
+         width: 50%;
+         height: 33%;
+         right: 0;
+     }
+     
+     .side {
+         width: 50%;
+         height: 100%;
+         position: absolute;
+         right: 0;
+     }
+
+     .side b {
+         font-size: 40px;
+         margin-left: 5%;
+     }
+     .side li {
+         font-size: 30px;
+     }
+
+
+     .content p {
+         text-align: center;
+     }
+
+     footer {
+         bottom: 0;
+         width: 100%;
+         border: 1px solid grey;
+         text-align: center;
+         position: absolute;
+         margin-top: 10px;
+         background: black;
+     }
+     footer p {
+         color: white;
+     }
+
+     .mobile_menu {
+         display: none;
+     }
+
+
+ }
+
+
+  @media screen and (max-width: 600px) {
+
+      body {
+          height: 100%;
+      }
+
+      header,main {display: none}
+
+      .mobile_menu {
+          display: block;
+          height: 90%;
+      }
+
+      .mobile_menu img {
+          width: 100%;
+          height: 100%;
+          margin: 2px;
+          border: 5px dashed blue;
+      }
+      footer {
+          height: 9%;
+          background: orange;
+          position: relative;
+          margin: 0;
+      }
+      footer p {
+          color: white;
+      }
+  }

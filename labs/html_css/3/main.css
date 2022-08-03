@@ -1,0 +1,198 @@
+@media screen and (max-width: 1920px)
+{
+
+  .icon img {
+    width: 100%;
+    height: 20%;
+  }
+
+  .menu{
+    background: #0101ff;
+  }
+  .menu ul {
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+  }
+
+  .menu li {
+    margin: 3%;
+    width: 100%;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .main  {
+    background: yellow;
+    width: 80%;
+  }
+
+  .content h3 {
+    text-align: center;
+  }
+
+  .content {
+    height: 80%;
+    width: 100%;
+    position: relative;
+  }
+
+  .content img {
+    width: 20%;
+    height: 80%;
+    float: left;
+    margin: 4px;
+  }
+
+  .one {
+    width: 68%;
+    background: yellow;
+    border: 2px solid #968d45;
+    position: absolute;
+    height: 50%;
+  }
+  .two {
+    height: 48%;
+    width: 68%;
+    background: green;
+    top: 50%;
+    position: absolute;
+
+  }
+
+  .three {
+    width: 28%;
+    height: 100%;
+    background: orange;
+    border: 2px solid #be9844;
+    right: 0;
+    position: absolute;
+  }
+
+  .content p {
+    text-align: center;
+  }
+
+  footer {
+    width: 80%;
+    border: 1px solid red;
+    text-align: center;
+    position: absolute;
+    margin-top: 10px;
+  }
+
+  .top_href a {
+    right: 10%;
+    position: absolute;
+    font-size: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+  .icon img {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+  }
+
+  .menu{
+    background: blue;
+  }
+  .menu ul {
+    list-style-type: none;
+    display: inline-block;
+    width: 80%;
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .main  {
+    background: yellow;
+    width: 80%;
+  }
+
+  .content h3 {
+    text-align: center;
+  }
+
+  .content {
+    height: 80%;
+    width: 100%;
+    position: static;
+  }
+
+  .content img {
+    width: 20%;
+    height: 80%;
+    float: left;
+    margin: 4px;
+  }
+
+  .one {
+    width: 100%;
+    background: yellow;
+    position: static;
+    height: 30%;
+    padding-bottom: 20px;
+  }
+  .two {
+    height: 30%;
+    width: 100%;
+    background: green;
+    top: 50%;
+    position: static;
+    margin-bottom: 50px;
+
+  }
+
+  .three {
+    width: 100%;
+    height: 30%;
+    background: orange;
+    position: static;
+  }
+
+  .content p {
+    text-align: center;
+  }
+
+  footer {
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    position: static;
+    margin-top: 20px;
+  }
+
+  .top_href a {
+    margin-left: 45%;
+    position: static;
+    font-size: 30px;
+  }
+
+}
