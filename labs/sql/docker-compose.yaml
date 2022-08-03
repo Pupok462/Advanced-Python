@@ -1,0 +1,14 @@
+# docker compose up -d
+# docker stop $(docker ps -aq)
+
+version: '3'
+
+services:
+  pg:
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: blog
+    ports:
+      - "5432:5432"

@@ -1,0 +1,4 @@
+alembic init alembic - init alembic in directory
+
+alembic revision -m "Some text" - like git commit -m "Some text" компилит код для апгрейда и отката
+alembic upgrade head - upgrade new version of table
