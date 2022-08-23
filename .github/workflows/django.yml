@@ -1,9 +1,6 @@
 name: Django test hw
 
-on:
-  push:
-    paths:
-      - 'labs/Django_project'
+on: [push]
 
 jobs:
   build:
