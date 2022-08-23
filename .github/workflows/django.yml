@@ -24,5 +24,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        cd labs/Django_project
+        cd labs/Django_project/shop
         python manage.py test
