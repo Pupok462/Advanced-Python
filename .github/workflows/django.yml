@@ -17,11 +17,10 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Go to Django Project
-      run: cd labs/Django_project
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
+        cd labs/Django_project
         pwd
         pip install -r requirements.txt
     - name: Run Tests
