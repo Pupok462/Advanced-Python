@@ -1,0 +1,5 @@
+[
+    {"model": "devices.devicestype", "pk": 1, "fields": {"name": "Phone"}},
+    {"model": "devices.devicestype", "pk": 2, "fields": {"name": "Tablet"}},
+    {"model": "devices.devicestype", "pk": 3, "fields": {"name": "Laptop"}},
+]

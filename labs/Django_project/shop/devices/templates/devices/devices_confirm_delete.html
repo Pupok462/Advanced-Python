@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Delete #{{ object.pk }}
+{% endblock %}
+{%  block body %}
+    <div class="text-center">
+        <h2> Are you sure to delete this device?</h2>
+        {% if object.image.url is not null  %}
+        <img src="{{ object.image.url }}" alt="">
+        {% else %}
+            <br>
+            <h3> No Photo</h3>
+        {% endif %}
+        <form method="post">{% csrf_token %}
+            {{ form }}
+            <div>
+                <button type="submit" class="btn btn-primary">Delete</button>
+                <a class="btn btn-danger" href="{% url 'devices:devices-list'%}" role="button">Go back</a>
+            </div>
+        </form>
+    </div>
+
+
+{% endblock %}

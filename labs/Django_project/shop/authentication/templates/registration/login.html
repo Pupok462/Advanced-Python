@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% block title %}
+  Login
+{% endblock %}
+
+{% block body %}
+
+  {% if form.errors %}
+      {{ form.errors }}
+  {% endif %}
+
+  {% if next %}
+    {% if user.is_authenticated %}
+      <p>Your account doesn't have access to this page. To proceed,
+        please login with an account that has access.</p>
+    {% else %}
+      <p>Please login to see this page.</p>
+    {% endif %}
+  {% endif %}
+
+
+    <section class="vh-90">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 text-black">
+
+        <div class="px-5 ms-xl-4">
+          <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #709085;"></i>
+        </div>
+
+        <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+
+          <form style="width: 26rem;" method="post" action="{% url 'login' %}">
+
+            <h2 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h2>
+            {% csrf_token %}
+            <div class="form-outline mb-4">
+              <input  name="username" class="form-control form-control-lg" />
+              <label class="form-label" for="{{ form.username.id_for_label }}">Username</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input name="password" type="password" class="form-control form-control-lg" />
+              <label class="form-label" for="{{ form.password.id_for_label }}">Password</label>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary"
+                        style="border-radius: 25px; height: 50px; width: 120px;">Login</button>
+            </div>
+            <p style="margin-top: 10px">Don't have an account? <a href="{% url 'register' %}" class="link-info">Register here</a></p>
+              <p><a href="{% url 'devices:devices-list' %}" class="link-info">Continue without login</a></p>
+
+          </form>
+
+        </div>
+
+      </div>
+      <div class="col-sm-6 px-0 d-none d-sm-block">
+          {% load static %}
+        <img src="{% static 'img/Mockups.png' %}"
+          class="img-fluid" alt="Sample image">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}
