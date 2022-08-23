@@ -9,7 +9,7 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        python-version: [3.7, 3.8, 3.9]
+        python-version: [3.9]
 
     steps:
     - uses: actions/checkout@v3
@@ -19,11 +19,10 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install Dependencies
       run: |
-        python -m pip install --upgrade pip
         cd labs/Django_project
-        pwd
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        pwd
+        cd labs/Django_project
         python manage.py test
